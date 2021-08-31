@@ -33,7 +33,7 @@
 	INTEGER,DIMENSION(4,*) :: facette
 	! Locales
 	INTEGER i,j,k
-	INTEGER,PARAMETER :: ndpmx=10000,ndfmx=10000
+	INTEGER,PARAMETER :: ndpmx=100000,ndfmx=100000
 	INTEGER :: ndp,ndf			!	ndp : nombre de points
 								!	nf : nombre de facettes
 	REAL,DIMENSION(3,ndpmx) :: noeud	!	noeuds : du maillage
